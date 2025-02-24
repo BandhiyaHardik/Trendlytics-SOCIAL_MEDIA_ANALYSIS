@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Influencers Dashboard</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="background-animation">
+        <div class="gradient-bg"></div>
+        <div class="floating-blur blur-1"></div>
+        <div class="floating-blur blur-2"></div>
+        <div class="floating-blur blur-3"></div>
+      </div>
+    <nav class="glass-nav">
+        <div class="container">
+          <div class="nav-content">
+            <div class="nav-logo">
+              <a href="/" class="gradient-text">Trendlytic</a>
+            </div>
+    
+            <div class="desktop-menu">
+              <a href="../index.html" class="nav-link">Home</a>
+              <a href="influencers.html" class="nav-link" class="active">Influencers</a>
+              <a href="businesses.html" class="nav-link">Businesses</a>
+              <a href="normal_users.html" class="nav-link">Users Insights</a>
+              <a href="platforms.html" class="nav-link">Platform Insights</a>
+              <a href="youtubelive.html" class="nav-link">Youtube Live Insights</a>
+
+              <!--<button class="primary-button">Platform Insights</button>`-->
+            </div>
+    
+            <button class="mobile-menu-button">
+              <i data-lucide="menu"></i>
+            </button>
+          </div>
+    
+          <div class="mobile-menu hidden">
+            <a href="../index.html" class="nav-link">Home</a>
+            <a href="influencers.html" class="nav-link">Influencers</a>
+            <a href="businesses.html" class="nav-link">Businesses</a>
+            <a href="normal_users.html" class="nav-link">Users Insights</a>
+            <a href="platforms.html" class="nav-link">Platfrom Insights</a>
+            <!-- <button class="primary-button">Get Started</button> -->
+          </div>
+        </div>
+      </nav>
+
+       <div class="sidebar">
+        <!-- <br>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./influencers.html" class="active">Influencers</a></li>
+          <li><a href="./businessess.html">Businesses</a></li>
+          <li><a href="./normal_users.html">Normal Users</a></li>
+          <li><a href="./platforms.html">Platforms</a></li>
+        </ul> -->
+      
+        <h3 class="sidebar-heading">Influencer Insights</h3>
+        <ul class="feature-links">
+          <li>
+            <a href="#" title="See how many followers each influencer has">
+              <i class="fas fa-user-friends"></i> Total Followers
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Check how far an influencer's posts can reach">
+              <i class="fas fa-broadcast-tower"></i> Potential Reach
+            </a>
+          </li>
+          <li>
+            <a href="#" title="View the most used hashtags by influencers">
+              <i class="fas fa-hashtag"></i> Top Hashtags by Influencer
+            </a>
+          </li>
+          <li>
+            <a href="#" title="See likes, comments, and shares stats">
+              <i class="fas fa-chart-bar"></i> User Engagement
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Find the top hashtags used by followers">
+              <i class="fas fa-tags"></i> Followers' Top Hashtags
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Count influencers on different platforms">
+              <i class="fas fa-layer-group"></i> Platform Count by Platforms
+            </a>
+          </li>
+          <li>
+            <a href="#" title="See influencer counts by country">
+              <i class="fas fa-globe"></i> Platform Count by Country
+            </a>
+          </li>
+          <li>
+            <a href="#" title="Check popular hashtags among followers">
+              <i class="fas fa-users"></i> Hashtags by Followers
+            </a>
+          </li>
+        </ul>
+        
+
+    </div> 
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>Influencers Visualization</h1>
+    <iframe 
+      class="iframe-container" 
+      src="https://app.powerbi.com/reportEmbed?reportId=47e95510-8e3d-4008-a66e-f4ad1611f039&autoAuth=true&ctid=ad1106cc-c3d8-47da-9e8e-bbf2a9512edd&filterPaneEnabled=false&navContentPaneEnabled=false" 
+      title="Influencers Power BI Dashboard">
+    </iframe>
+  </div>
+</body>
+</html>
