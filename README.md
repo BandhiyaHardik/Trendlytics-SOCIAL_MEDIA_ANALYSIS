@@ -14,7 +14,7 @@ Trendlytics is a responsive social media analytics dashboard that uses static da
 
 ## Project Structure
 ```bash
-trendlytics/
+Trendlytics-SOCIAL_MEDIA_ANALYSIS/
 ├── images/                # Project images and assets
 ├── index.html             # Main homepage for the dashboard
 ├── pages/                 # Individual pages for different insights
