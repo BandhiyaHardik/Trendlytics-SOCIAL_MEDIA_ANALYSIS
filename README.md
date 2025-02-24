@@ -36,7 +36,7 @@ trendlytics/
 ### Steps to Run
 ```bash
 # Clone the repository
-git clone https://github.com/SobiyaMariyam/trendlytics.git
+git clone https://github.com/SobiyaMariyam/Trendlytics-SOCIAL_MEDIA_ANALYSIS.git
 
 # Navigate to the project directory
 cd trendlytics
