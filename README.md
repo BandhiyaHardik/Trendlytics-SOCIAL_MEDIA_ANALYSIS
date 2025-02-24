@@ -1,7 +1,7 @@
 # Trendlytics - Social Media Analytics Dashboard
 
 ## Overview
-Trendlytics is a responsive and interactive social media analytics dashboard that provides real-time insights into platforms like YouTube, Instagram, X (formerly Twitter), and LinkedIn. Designed for influencers, businesses, and users, the dashboard offers key metrics to monitor follower growth, engagement, and content performance.
+Trendlytics is a responsive social media analytics dashboard that uses static data from Kaggle to provide insights across platforms like YouTube, Instagram, X, and LinkedIn. It helps users track follower growth, engagement, and content performance with interactive visualizations, enabling data-driven decisions to improve audience reach.
 
 ## Features
 - **Influencer Insights:** Track engagement rates, follower trends, and top-performing content.
